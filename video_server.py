@@ -14,7 +14,8 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((HOST, PORT))
 server_socket.listen(10)
 
-print(f'SERVER listening on {HOST}:{PORT}')
+print(f'[+] SERVER listening on {HOST}:{PORT}')
+print("[+] Press Q to quit")
 
 
 while True:
